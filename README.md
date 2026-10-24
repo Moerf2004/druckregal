@@ -7,12 +7,15 @@ Deine Bibliothek für 3D-Druck-Dateien unter Windows – mit Vorschaubildern, Dr
 - **Vorschau** für STL, OBJ, 3MF (Bambu Studio / OrcaSlicer) und G-Code – inklusive Designer-Fotos von MakerWorld
 - **Drehbare 3D-Ansicht** direkt im Programm
 - **Druckzeit, Gramm und Kosten** – bei geslicten Dateien die echten Slicer-Werte, sonst eine Schätzung
-- **Filter und Suche** nach Typ, Material, Farbe, Druckzeit; Sortierung nach Name, Zeit, Gewicht, Datum
+- **Filter und Suche** nach Typ, Material, Farbe, Druckzeit; Sortierung nach Name, Zeit, Gewicht, Datum, „Zuletzt benutzt“ und „Am längsten unbenutzt“
+- **Neue Dateien zuerst** mit **„Neu“-Schild** – verschwindet, sobald du das Modell angesehen hast (spätestens nach 14 Tagen); Hinweis „X neue Modelle seit dem letzten Mal“
 - **Projekte**: Ordner mit mehreren STL-Teilen werden zu einer Kachel zusammengefasst
 - **Druckliste** mit Gesamtzeit, Filament und Kosten
 - **Duplikate finden** und in den Papierkorb verschieben
-- **Archiv**: länger nicht benutzte Modelle automatisch ausblenden (7 Tage bis 12 Monate einstellbar)
-- **Umbenennen**, „Im Ordner zeigen“, direkt in Bambu Studio öffnen
+- **Archiv**: länger nicht benutzte Modelle automatisch ausblenden (7 Tage bis 12 Monate einstellbar), von Hand archivieren und zurückholen
+- **Rechtsklick-Menü** auf jedem Modell: öffnen, im Ordner zeigen, umbenennen, verschieben, Favorit, Druckliste, archivieren, löschen
+- **In Ordner verschieben** – Favoriten, Druckliste und Vorschaubild bleiben erhalten
+- Direkt in **Bambu Studio** öffnen
 - **Designs**: 4 Stile (Klar, Weich, Galerie, Studio), 8 Farben, Hell- und Dunkelmodus
 - **Sprachen**: Deutsch und Englisch
 - **Automatische Updates** direkt im Programm
@@ -27,12 +30,16 @@ Deine Bibliothek für 3D-Druck-Dateien unter Windows – mit Vorschaubildern, Dr
 
 ## Updates
 
-Druckregal sucht automatisch nach neuen Versionen. Ist eine da, erscheint links unten ein Hinweis – ein Klick auf **„Jetzt aktualisieren“** genügt.
+Druckregal sucht automatisch nach neuen Versionen. Ist eine da, erscheint links unten ein Hinweis – ein Klick auf **„Jetzt aktualisieren“** genügt. Danach startet Druckregal von selbst neu.
+
+Was sich in jeder Version geändert hat, steht unter **[Releases](../../releases)**.
 
 ---
 
 ## English
 
 Druckregal is a Windows library for 3D printing files (STL, OBJ, 3MF, G-code) with previews, a 3D viewer, print time, material usage and cost. The interface is available in **English** – switch it under *Settings → General → Language*.
+
+Highlights: right-click menu on every model (open, show in folder, rename, move to folder, favorite, print list, archive, delete), newly added files first with a “New” badge, an archive for models you haven’t used in a while, and automatic updates with restart.
 
 Download the latest version under **[Releases](../../releases/latest)**.
